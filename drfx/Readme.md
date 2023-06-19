@@ -1,6 +1,6 @@
 # notes_storage
 
-A framework for launching new Django Rest Framework projects quickly. Comes with a custom user model, login/logout/signup, social authentication via django-allauth, and more.
+A framework for launching new Django Rest Framework projects quickly. Comes with a custom user model, login/logout/signup, social authentication via django-allauth, and he upload their notes.
 
 ## Features
 
@@ -10,6 +10,8 @@ A framework for launching new Django Rest Framework projects quickly. Comes with
 - Signup/login/logout
 - [django-allauth](https://github.com/pennersr/django-allauth) for social auth
 - [Pipenv](https://github.com/pypa/pipenv) for virtualenvs
+- Notes uploading
+- Notes store in Db
 
 ## First-time setup
 
@@ -40,9 +42,4 @@ Login with your superuser account. Then navigate to all users. Logout. Sign up f
 - all users - http://127.0.0.1:8000/api/v1/users
 - logout - http://127.0.0.1:8000/api/v1/rest-auth/logout/
 - signup - http://127.0.0.1:8000/api/v1/rest-auth/registration/
-
----
-
-Want to learn more about Django REST Framework? I've written an entire book that takes a project-based approach to building web APIs with Django. The first 2 chapters are available for free online at [https://djangoforapis.com/](https://djangoforapis.com/).
-
-[![Django for APIs](https://learndjango.com/static/images/books/dfa_cover_31.jpg)](https://djangoforapis.com)
+- notes - signup - http://127.0.0.1:8000/notes/
